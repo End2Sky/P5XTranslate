@@ -19,6 +19,13 @@
 劇情動畫：賭場激鬥=Drama Animation: Casino Fighting
 劇情動畫：X登場=Animation: X appears
 
+----- Train Animated Cutscene -----
+電車即將到達 請注意安全 退到黃線內側等候=There is an incoming train. Please step away from the danger zone.
+請注意月臺與電車之間的空隙 留意腳下安全=Please mind the gap between the platform and the train. Watch your step for safety.
+@Passerby
+那是什麼=What's that?
+啊 飛走了=Ah... It flew away.
+
 ----- Prelude (Wake up, Class, protagonist name) -----
 
 總之，先去學校吧……= I need to go to school...
@@ -32,28 +39,35 @@
 
 好了，班會到此結束。\n把未來規劃志願調查表從後往前傳上來。=That's all the time we have for homeroom today. \n Please pass your senior exit surveys down from back to front.
 
-總之……都記得寫名字喔！=Don't forget to write your name!
+總之……都記得寫名字喔！=And don't forget to write your name!
 
-雖然我是在說大家都懂的事情……\n要寫自己的真名哦，可不是寫綽號暱稱啊。=This may be common sense, but remember to write your full names.
+雖然我是在說大家都懂的事情……\n要寫自己的真名哦，可不是寫綽號暱稱啊。=This may be common sense, but remember to write your real name, not a nickname.
 比如我的話，就應該寫<color\=#ff0000>片山久未</color>。\n大家聽懂了嗎？=In my case, I'd write <color\=#ff0000>Katayama Kumi.</color>.\nDo you understand?
-要是不從這種常識講起，\n到時反而怪我說明不到位了……=Something as simple as this that may seem obvious to you, \nbut I'm the one who gets blamed for not explaining things when you guys mess up anyway.
+要是不從這種常識講起，\n到時反而怪我說明不到位了……=Something as simple as this that may seem obvious to you, \nbut I'm the one who gets blamed for not explaining things when you all mess up anyway.
 
 ……對了，你們確認一下有沒有寫名字哦。=In any case, make sure that you've written down your name.
 似乎從來沒考慮過未來……不，你甚至連去想的慾望都沒有。=The future. It's not something you ever thought about...... No, you don't even have the desire to think about it.
 得寫上名字……=I suppose I'll write my name. \n<color\=#ff0000>TL NOTE: Name can be changed once for free.</color>
+請輸入怪盜名字=Please enter your name.
+點擊輸入框輸入名字=Please click on the box to enter your name. 
 從未正視過的前路=The Unseen Path which Lies Ahead.
 在2-C教室上課=Classes are held in classroom 2-C.
-突然覺得好睏……=I suddenly feel sleepy...
+r:(.*?)……名字寫好了。$=$1...That's what i'll go with.
+突然覺得好睏……=I feel... sleepy...
 
 ----- Prelude (Velvet Room) -----
 劇情動畫：初見天鵝絨=Drama Animation: Arrival at the Velvet Room
 
+
 呵呵呵=Heh heh heh
 呵呵呵……=Heh heh heh...
-
+這次也遇到了呢=It would seem we have a very interesting guest.
+那麼 歡迎你=Well then... Allow me to welcome you.
+你此時此刻看到的這幅光景=The place we are, in the here and now...
+還請稱呼它為「天鵝絨房間」=welcome to the "Velvet Room"
 啊，自我介紹有些遲了，請叫我<color\=#ff0000>伊格爾</color>吧。=Ah, It would seem that an introduction is overdue. Please, call me <color\=#ff0000>Igor</color>.
 
-然後，這個的名字是……<color\=#ff0000>梅洛普</color>。\n是服侍我的隨從。=This is <color\=#ff0000>Merope</color>. \nShe resides here as my assistant.
+然後，這個的名字是……<color\=#ff0000>梅洛普</color>。\n是服侍我的隨從。=This is <color\=#ff0000>Merope</color>. \nShe resides here as an attendent.
 
 我是梅洛普，請多指教。=I'm Merope. It is a pleasure to make your acquaintance.
 這裡是位於夢與現實、\n精神與物質之間的狹縫之處。=This place exists between dream and reality, \nmind and matter...
@@ -79,12 +93,12 @@
 居然還沒有察覺嗎……=So you have not come to realize it...
 原來如此，\n看到這個房間的景象，也不是不能理解。=I see... \nI suppose that comes not as a surprise, given the state of our surroundings.
 打個比方，\n就是「在心海中開掘的海底隧道」。=One could aptly describe us as being under "a sunken tunnel unearthed from the sea of souls".
-但你憑藉自己的意志，\n向我展示了名為「想知道」的慾望。=Yet, through your very own will, you have managed to show me a "desire to know".
-儘管你是生活在這種世界中的人類……\n現在只要這樣就好。=Which, even though you live in a world such as this, \nis certainly a comforting sight to see.
+但你憑藉自己的意志，\n向我展示了名為「想知道」的慾望。=Yet, through your very own will, you have managed to show me a certain desire to "know."
+儘管你是生活在這種世界中的人類……\n現在只要這樣就好。=Which, even though you live in a world such as this, \nit's certainly a comforting sight to see.
 
 那麼，這次就到這裡吧……\n啊，抱歉，最後再給你一個忠告……=Alas, this is as far as we should go for now. \nAh forgive me, I must impart one last piece of advice:
 
-「無慾」有時會導致你放棄自己……=A "lack of desire" can sometimes cause one to give up on themselves.
+「無慾」有時會導致你放棄自己……=One with a lack of desire tends to give up on themselves.
 
 這樣的世界還有您這樣的人……\n希望您能理解領會主人的忠告。=In this world, there are many others like you. \nI hope you take my master's advice to heart.
 
@@ -402,12 +416,6 @@ Mccs同學 ，你怎麼了？\n突然發起呆來？=What's wrong with you, Mr. 
 日程名称名称名称=Calendar Name Name Name
 暫無消息=No news yet.
 敬請期待=Stay tuned!
-序章=prelude
-離開賭場=Get out of the casino.
-那個叫做JOKER的人是誰？和他戰鬥的……是你？是夢吧？但那似曾相識的感覺是什麼……=Who is the man called Joker and who is fighting with him ...... It's a dream, isn't it? But what is that feeling of familiarity ......?
-真實與虛幻的夾縫=Caught Between Reality and Illusion
-剧情动画：阴影出现阴影出现=Plot Animation: Shadows Appear Shadows Appear
-劇情動畫：賭場=Drama Animation: Casino
 少年般的聲音=Teenage voice
 好，開始逃走吧！=Okay, start running away!
 少年的聲音=The voice of a teenager
@@ -420,55 +428,26 @@ Mccs同學 ，你怎麼了？\n突然發起呆來？=What's wrong with you, Mr. 
 黑衣人=Men in Black
 劇情動畫：賭場激鬥=Drama Animation: Casino Fighting
 劇情動畫：X登場=Animation: X appears
-總之，先去學校吧……=Anyway, go to school first ......
-剛才是……=Just now it was ......
-前往學校=Going to School
 劇情動畫：雙雄爭鋒=Drama Animation: Two Men at War
 被擾亂的信號=scrambled signal
 劇情動畫：澀谷清晨=Drama Animation: Shibuya Early Morning
-總之……都記得寫名字喔！=Remember to write your name on ......!
-要是不從這種常識講起，\n到時反而怪我說明不到位了……=If I don't start with this common sense, I'll be blamed for not explaining it properly ......
-片山 久未=Hisashi Katayama
-比如我的話，就應該寫<color\=#ff0000>片山久未</color>。\n大家聽懂了嗎？=In my case, it would be<color\=#ff0000>Katayama Kumi.</color>I'd write "Kumi Katayama".\nDo you understand?
-……對了，你們確認一下有沒有寫名字哦。=...... By the way, you guys make sure there is no name written on it.
+片山 久未=Hisashi Katayamas
 戴眼鏡的女性=Women who wear glasses
-得寫上名字……=Gotta put a name on it ......
-似乎從來沒考慮過未來……不，你甚至連去想的慾望都沒有。=Never seem to think about the future ...... No, you don't even have the desire to think about it.
 從未正視過的前路=The road ahead that I've never looked at before.
 序章-起名任務前置=Prologue - Pre-Naming Tasks
-好了，班會到此結束。\n把未來規劃志願調查表從後往前傳上來。=All right, that's the end of the class meeting. pass up the Future Planning Wish List from back to front.
 雖然我是在說大家都懂的事情……\n要寫自己的真名哦，可不是寫綽號暱稱啊。=Although I am talking about something that everyone knows ...... should write their real names, not nicknames.
 在2-C教室上課=Classes are held in classroom 2-C.
-突然覺得好睏……=Suddenly I feel sleepy ......
 Mccs……名字寫好了。=Mccs...... name is written.
-這樣的世界還有您這樣的人……\n希望您能理解領會主人的忠告。=In such a world, there are still people like you ...... I hope you can understand and appreciate the advice of the master.
 梅洛普=Merope
-「無慾」有時會導致你放棄自己……="Desirelessness can sometimes cause you to give up on yourself ......
-那麼，這次就到這裡吧……\n啊，抱歉，最後再給你一個忠告……=So, that's it for this time ...... Ah, sorry, one last piece of advice ......
-儘管你是生活在這種世界中的人類……\n現在只要這樣就好。=Even though you are a human being living in this kind of world ...... now as long as this is good.
 伊格爾=Igor
-啊，自我介紹有些遲了，請叫我<color\=#ff0000>伊格爾</color>吧。=Ah, it's a little late for introductions. Please, call me.<color\=#ff0000>Igor</color>Call me Igor.
-長鼻子老人=Old man with a long nose
-然後，這個的名字是……<color\=#ff0000>梅洛普</color>。\n是服侍我的隨從。=Then the name of this one is ......<color\=#ff0000>Merope</color>Melope.\nIt is the attendant who serves me.
-我是梅洛普，請多指教。=I'm Merope. Please advise me.
-這裡是位於夢與現實、\n精神與物質之間的狹縫之處。=It is a place that lies in the crevice between dream and reality, between spirit and matter.
-你做了一個奇怪的夢，伊格爾，梅洛普……他們說的話是什麼意思？=You had a strange dream, Igor, Merope ...... What do they mean by that?
+長鼻子老人=Old man with a long nose\
 夢中的天鵝絨房間=The Velvet Room of Your Dreams
 天鵝絨房間=Velvet Room
 劇情動畫：初見天鵝絨=Drama Animation: First Look at Velvet
-你是以某種形式做出了「選擇」吧……？=You've made a "choice" in one form or another, haven't you ......?
-所以才會作為「客人」來訪。=That's why I'm here as a "guest".
 小心前方阴影！！=Watch out for the shadows ahead!
-客人？=Guests?
-選擇？=Choose?
 打個比方，\n就是「在心海中開掘的海底隧道」。=To use an analogy, it is "an undersea tunnel dug in the sea of the mind".
 原來如此，\n看到這個房間的景象，也不是不能理解。=As it turns out, the sight of this room is not incomprehensible.
-居然還沒有察覺嗎……=I can't believe you haven't realized it yet. ......
-沒錯，我想說的是，\n這是你自己做出的「選擇」……=Yes, I'd say it's a "choice" you make ......
-但你憑藉自己的意志，\n向我展示了名為「想知道」的慾望。=But by your own will, you have shown me what is known as the desire to "know".
-抱歉，留你這麼久，那麼……期待再會。=Sorry to keep you so long, so ...... looking forward to seeing you again.
 呵呵呵……=Heh heh heh ......
-是的，我們歡迎你以「客人」的身份來訪……=Yes, we welcome you as a "guest" ......
 ……可能就是因為這樣，\n很多孩子的狀態才不太對勁吧……=...... Maybe that's why a lot of kids aren't in the right shape ......
 啊，片山老師……=Ah, Mr. Katayama ......
 名為新井的女學生=A female student named Arai.
